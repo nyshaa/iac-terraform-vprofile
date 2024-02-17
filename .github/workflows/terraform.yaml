@@ -45,7 +45,7 @@ jobs:
 
       - name: Terraform format
         id: fmt
-        run: terraform fmt -check' #check terraform format and can fix the code, workflow will be failed if format is incorrect
+        run: terraform fmt -check #check terraform format and can fix the code, workflow will be failed if format is incorrect
         
       - name: Terraform validate
         id: validate #check the terraform syntax
